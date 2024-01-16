@@ -1,0 +1,88 @@
+/* Pozo González José Antonio. DNI: 71440331P email: iwc70842@educastur.es*/   
+
+/*Fuente para la web*/
+body {
+  font-family: 'Roboto', sans-serif;  
+}
+/*Sobreescritura de colores para adecuar a la gama cromatica*/
+.nav-link{
+  color: #EE05F2;
+}
+.nav-link:hover{
+  color: #5005f2;
+}
+.navbar-brand{
+  color: #A303A6
+}
+.navbar-brand:hover{
+  color: #5005F2
+}
+.nav-item.dropdown .dropdown-menu {
+  background-color: #1e0126 !important;
+  color: #EE05F2;
+}
+.dropdown-item {
+  color: #EE05F2;
+}
+.dropdown-item:hover {
+  background-color: #1e0126;
+  color: #5005F2;
+}
+.navbar-nav .nav-link.show {
+  color: #5005F2;
+}
+.navbar{
+  background-color: #1e0126;
+}
+.btn-primary{
+  background-color: #EE05F2;
+}
+.btn-primary:hoover{
+  background-color: #5005f2;
+}
+.card{
+  background-color: #1e0126;  
+}
+footer{
+  background-color: #1e0126;
+  color: #EE05F2;
+}
+
+/*Imagen de fondo del cuerpo de la web*/
+body {
+  background-image: url("/img/retro-synthwave_background-01.jpg");
+}
+
+/*Modificaciones para el formulario y la tabla de resultados PHP*/
+#formulario{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+table {
+  padding: 5px;
+  width: 75%;
+  background-color: #1e0126;
+  color: #EE05F2;
+  margin: auto;  
+}
+td{
+  color: #5005f2;
+  border: 1px solid black;
+}
+li{
+  list-style:none;
+  color: #EE05F2;
+}
+
+/*Modificaciones para la pagina del Mapa Web*/
+
+#mapaweb{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+
