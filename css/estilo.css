@@ -4,15 +4,15 @@
 body {
   font-family: 'Roboto', sans-serif;  
 }
-/*Sobreescritura de colores para adecuar a la gama cromatica*/
+/*Sobreescritura de colores de las clase de bootstrap para adecuar a la gama cromatica*/
 .nav-link{
-  color: #EE05F2;
+  color: #A303A6;
 }
 .nav-link:hover{
   color: #5005f2;
 }
 .navbar-brand{
-  color: #A303A6
+  color: #EE05F2
 }
 .navbar-brand:hover{
   color: #5005F2
@@ -35,9 +35,9 @@ body {
   background-color: #1e0126;
 }
 .btn-primary{
-  background-color: #EE05F2;
+  background-color: #EE05F2;  
 }
-.btn-primary:hoover{
+.btn-primary:hover{  
   background-color: #5005f2;
 }
 .card{
@@ -46,6 +46,19 @@ body {
 footer{
   background-color: #1e0126;
   color: #EE05F2;
+}
+.btn{
+  border-color: #1e0126 ;
+}
+/*Cambio del color de los link para que sean de nuestra paleta de colores*/
+a{
+  color: #5005F2;
+}
+a:hover{
+  color: #A303A6;
+}
+p{
+  color:#A303A6
 }
 
 /*Imagen de fondo del cuerpo de la web*/
